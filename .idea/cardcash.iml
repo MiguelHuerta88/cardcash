@@ -64,7 +64,6 @@
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-observation:1.11.0" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-commons:1.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:6.0.9" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:6.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:6.0.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:2.1.214" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:3.1.0" level="project" />
@@ -97,5 +96,11 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:6.0.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:6.0.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:6.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:6.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:6.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:6.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:6.1.0" level="project" />
   </component>
 </module>

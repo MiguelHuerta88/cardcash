@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="example.cashcard.CashcardApplicationTests" time="3.312" tests="8" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/miguelhuerta/Desktop/code/cardcash/target/test-classes:/Users/miguelhuerta/Desktop/code/cardcash/target/classes:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-data-jdbc/3.1.0/spring-boot-starter-data-jdbc-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.0/spring-boot-starter-jdbc-3.1.0.jar:/Users/miguelhuerta/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-jdbc/6.0.9/spring-jdbc-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/data/spring-data-jdbc/3.1.0/spring-data-jdbc-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/data/spring-data-relational/3.1.0/spring-data-relational-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/data/spring-data-commons/3.1.0/spring-data-commons-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-tx/6.0.9/spring-tx-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-context/6.0.9/spring-context-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-beans/6.0.9/spring-beans-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.1.0/spring-boot-starter-web-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.0/spring-boot-starter-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot/3.1.0/spring-boot-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.0/spring-boot-autoconfigure-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.0/spring-boot-starter-logging-3.1.0.jar:/Users/miguelhuerta/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/miguelhuerta/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/miguelhuerta/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/miguelhuerta/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/miguelhuerta/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/miguelhuerta/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/miguelhuerta/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.1.0/spring-boot-starter-json-3.1.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.0/jackson-datatype-jdk8-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.0/jackson-datatype-jsr310-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.0/jackson-module-parameter-names-2.15.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.0/spring-boot-starter-tomcat-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.8/tomcat-embed-core-10.1.8.jar:/Users/miguelhuerta/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.8/tomcat-embed-el-10.1.8.jar:/Users/miguelhuerta/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.8/tomcat-embed-websocket-10.1.8.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-web/6.0.9/spring-web-6.0.9.jar:/Users/miguelhuerta/.m2/repository/io/micrometer/micrometer-observation/1.11.0/micrometer-observation-1.11.0.jar:/Users/miguelhuerta/.m2/repository/io/micrometer/micrometer-commons/1.11.0/micrometer-commons-1.11.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-webmvc/6.0.9/spring-webmvc-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-expression/6.0.9/spring-expression-6.0.9.jar:/Users/miguelhuerta/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.0/spring-boot-starter-test-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-test/3.1.0/spring-boot-test-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.0/spring-boot-test-autoconfigure-3.1.0.jar:/Users/miguelhuerta/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/miguelhuerta/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/miguelhuerta/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/miguelhuerta/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/miguelhuerta/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/miguelhuerta/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/miguelhuerta/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/miguelhuerta/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/miguelhuerta/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/miguelhuerta/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/miguelhuerta/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/miguelhuerta/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/miguelhuerta/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/miguelhuerta/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/miguelhuerta/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/miguelhuerta/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/miguelhuerta/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-core/6.0.9/spring-core-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-jcl/6.0.9/spring-jcl-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-test/6.0.9/spring-test-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-aop/6.0.9/spring-aop-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="catalina.useNaming" value="false"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/miguelhuerta/Desktop/code/cardcash/target/surefire/surefirebooter-20230605183319095_3.jar /Users/miguelhuerta/Desktop/code/cardcash/target/surefire 2023-06-05T18-33-19_053-jvmRun1 surefire-20230605183319095_1tmp surefire_0-20230605183319095_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/miguelhuerta/Desktop/code/cardcash/target/test-classes:/Users/miguelhuerta/Desktop/code/cardcash/target/classes:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-data-jdbc/3.1.0/spring-boot-starter-data-jdbc-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.0/spring-boot-starter-jdbc-3.1.0.jar:/Users/miguelhuerta/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-jdbc/6.0.9/spring-jdbc-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/data/spring-data-jdbc/3.1.0/spring-data-jdbc-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/data/spring-data-relational/3.1.0/spring-data-relational-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/data/spring-data-commons/3.1.0/spring-data-commons-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-tx/6.0.9/spring-tx-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-context/6.0.9/spring-context-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-beans/6.0.9/spring-beans-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.1.0/spring-boot-starter-web-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.0/spring-boot-starter-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot/3.1.0/spring-boot-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.0/spring-boot-autoconfigure-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.0/spring-boot-starter-logging-3.1.0.jar:/Users/miguelhuerta/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/miguelhuerta/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/miguelhuerta/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/miguelhuerta/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/miguelhuerta/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/miguelhuerta/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/miguelhuerta/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.1.0/spring-boot-starter-json-3.1.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.0/jackson-datatype-jdk8-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.0/jackson-datatype-jsr310-2.15.0.jar:/Users/miguelhuerta/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.0/jackson-module-parameter-names-2.15.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.0/spring-boot-starter-tomcat-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.8/tomcat-embed-core-10.1.8.jar:/Users/miguelhuerta/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.8/tomcat-embed-el-10.1.8.jar:/Users/miguelhuerta/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.8/tomcat-embed-websocket-10.1.8.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-web/6.0.9/spring-web-6.0.9.jar:/Users/miguelhuerta/.m2/repository/io/micrometer/micrometer-observation/1.11.0/micrometer-observation-1.11.0.jar:/Users/miguelhuerta/.m2/repository/io/micrometer/micrometer-commons/1.11.0/micrometer-commons-1.11.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-webmvc/6.0.9/spring-webmvc-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-expression/6.0.9/spring-expression-6.0.9.jar:/Users/miguelhuerta/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.0/spring-boot-starter-test-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-test/3.1.0/spring-boot-test-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.0/spring-boot-test-autoconfigure-3.1.0.jar:/Users/miguelhuerta/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/miguelhuerta/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/miguelhuerta/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/miguelhuerta/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/miguelhuerta/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/miguelhuerta/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/miguelhuerta/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/miguelhuerta/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/miguelhuerta/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/miguelhuerta/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/miguelhuerta/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/miguelhuerta/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/miguelhuerta/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/miguelhuerta/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/miguelhuerta/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/miguelhuerta/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/miguelhuerta/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/miguelhuerta/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-core/6.0.9/spring-core-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-jcl/6.0.9/spring-jcl-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-test/6.0.9/spring-test-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/miguelhuerta/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/spring-aop/6.0.9/spring-aop-6.0.9.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0.jar:/Users/miguelhuerta/.m2/repository/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/miguelhuerta"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/miguelhuerta/Desktop/code/cardcash"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/miguelhuerta/Desktop/code/cardcash/target/surefire/surefirebooter-20230605183319095_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="miguelhuerta"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/miguelhuerta/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/z_/mh25c7hx0wgdwmtg0cjzndy00000gn/T/"/>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="catalina.home" value="/private/var/folders/z_/mh25c7hx0wgdwmtg0cjzndy00000gn/T/tomcat.0.10502815279769262349"/>
+    <property name="com.zaxxer.hikari.pool_number" value="3"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="/Users/miguelhuerta/Desktop/code/cardcash"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="22134"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="catalina.base" value="/private/var/folders/z_/mh25c7hx0wgdwmtg0cjzndy00000gn/T/tomcat.0.5947206797727031838"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/miguelhuerta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="shouldNotReturnCashCardWithAnUnknownId" classname="example.cashcard.CashcardApplicationTests" time="0.719">
+    <system-out><![CDATA[18:33:19.435 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [example.cashcard.CashcardApplicationTests]: CashcardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:33:19.478 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration example.cashcard.CashcardApplication for test class example.cashcard.CashcardApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-05T18:33:19.640-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : Starting CashcardApplicationTests using Java 18.0.2.1 with PID 22134 (started by miguelhuerta in /Users/miguelhuerta/Desktop/code/cardcash)
+2023-06-05T18:33:19.641-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-06-05T18:33:19.879-07:00  INFO 22134 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-05T18:33:19.899-07:00  INFO 22134 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JDBC repository interfaces.
+2023-06-05T18:33:20.146-07:00  INFO 22134 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-05T18:33:20.151-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-05T18:33:20.151-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-05T18:33:20.197-07:00  INFO 22134 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-05T18:33:20.197-07:00  INFO 22134 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 548 ms
+2023-06-05T18:33:20.246-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-05T18:33:20.323-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:36b87707-3bce-470d-9ad9-69a98da921ab user=SA
+2023-06-05T18:33:20.323-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-05T18:33:20.698-07:00  INFO 22134 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5408d4b3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@eded048, org.springframework.security.web.context.SecurityContextHolderFilter@726a8729, org.springframework.security.web.header.HeaderWriterFilter@6ba060af, org.springframework.security.web.authentication.logout.LogoutFilter@191f4d65, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@241fc278, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7dd91ffc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c6927f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65a48cab, org.springframework.security.web.access.ExceptionTranslationFilter@3688baab, org.springframework.security.web.access.intercept.AuthorizationFilter@59933644]
+2023-06-05T18:33:20.788-07:00  INFO 22134 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60603 (http) with context path ''
+2023-06-05T18:33:20.793-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : Started CashcardApplicationTests in 1.262 seconds (process running for 1.662)
+2023-06-05T18:33:21.238-07:00  INFO 22134 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-05T18:33:21.239-07:00  INFO 22134 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-05T18:33:21.239-07:00  INFO 22134 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-06-05T18:33:21.507-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-05T18:33:21.507-07:00  INFO 22134 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-05T18:33:21.512-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-05T18:33:21.513-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnACashCardWhenDataIsSaved" classname="example.cashcard.CashcardApplicationTests" time="0.191">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-05T18:33:21.525-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : Starting CashcardApplicationTests using Java 18.0.2.1 with PID 22134 (started by miguelhuerta in /Users/miguelhuerta/Desktop/code/cardcash)
+2023-06-05T18:33:21.525-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-06-05T18:33:21.586-07:00  INFO 22134 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-05T18:33:21.589-07:00  INFO 22134 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JDBC repository interfaces.
+2023-06-05T18:33:21.622-07:00  INFO 22134 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-05T18:33:21.623-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-05T18:33:21.623-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-05T18:33:21.628-07:00  INFO 22134 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-05T18:33:21.628-07:00  INFO 22134 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 102 ms
+2023-06-05T18:33:21.646-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-05T18:33:21.648-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:3a6403a9-4fbb-4a73-810f-fbdf47b2f4aa user=SA
+2023-06-05T18:33:21.648-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-05T18:33:21.766-07:00  INFO 22134 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6033f36c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50b624da, org.springframework.security.web.context.SecurityContextHolderFilter@7d07e04e, org.springframework.security.web.header.HeaderWriterFilter@74919649, org.springframework.security.web.authentication.logout.LogoutFilter@4d90d91f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ba08f26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@599310ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@770cbe5d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1764e45e, org.springframework.security.web.access.ExceptionTranslationFilter@36931450, org.springframework.security.web.access.intercept.AuthorizationFilter@1e2b37cd]
+2023-06-05T18:33:21.785-07:00  INFO 22134 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60606 (http) with context path ''
+2023-06-05T18:33:21.786-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : Started CashcardApplicationTests in 0.27 seconds (process running for 2.656)
+2023-06-05T18:33:21.794-07:00  INFO 22134 --- [o-auto-2-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-05T18:33:21.794-07:00  INFO 22134 --- [o-auto-2-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-05T18:33:21.794-07:00  INFO 22134 --- [o-auto-2-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+]]></system-out>
+  </testcase>
+  <testcase name="shouldCreateANewCashCard" classname="example.cashcard.CashcardApplicationTests" time="0.016">
+    <failure message="&#10;expected: 201 CREATED&#10; but was: 401 UNAUTHORIZED" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+
+expected: 201 CREATED
+ but was: 401 UNAUTHORIZED
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at example.cashcard.CashcardApplicationTests.shouldCreateANewCashCard(CashcardApplicationTests.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2023-06-05T18:33:21.996-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-05T18:33:21.996-07:00  INFO 22134 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-05T18:33:21.998-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-06-05T18:33:21.998-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnAPageOfCashCards" classname="example.cashcard.CashcardApplicationTests" time="0.179">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-05T18:33:22.009-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : Starting CashcardApplicationTests using Java 18.0.2.1 with PID 22134 (started by miguelhuerta in /Users/miguelhuerta/Desktop/code/cardcash)
+2023-06-05T18:33:22.009-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-06-05T18:33:22.063-07:00  INFO 22134 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-05T18:33:22.065-07:00  INFO 22134 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 1 JDBC repository interfaces.
+2023-06-05T18:33:22.088-07:00  INFO 22134 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-05T18:33:22.089-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-05T18:33:22.089-07:00  INFO 22134 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-05T18:33:22.094-07:00  INFO 22134 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-05T18:33:22.095-07:00  INFO 22134 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2023-06-05T18:33:22.105-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-06-05T18:33:22.106-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:05635070-cb24-4254-9255-e4fc8369e8c4 user=SA
+2023-06-05T18:33:22.106-07:00  INFO 22134 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-06-05T18:33:22.218-07:00  INFO 22134 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24482a4f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3140ad41, org.springframework.security.web.context.SecurityContextHolderFilter@2dd46693, org.springframework.security.web.header.HeaderWriterFilter@5655278d, org.springframework.security.web.authentication.logout.LogoutFilter@7f49df25, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@15c96f24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27107a97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@eb1e868, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f2d2f22, org.springframework.security.web.access.ExceptionTranslationFilter@69b80603, org.springframework.security.web.access.intercept.AuthorizationFilter@5a5a973c]
+2023-06-05T18:33:22.233-07:00  INFO 22134 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60609 (http) with context path ''
+2023-06-05T18:33:22.234-07:00  INFO 22134 --- [           main] e.cashcard.CashcardApplicationTests      : Started CashcardApplicationTests in 0.232 seconds (process running for 3.104)
+2023-06-05T18:33:22.239-07:00  INFO 22134 --- [o-auto-3-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-05T18:33:22.239-07:00  INFO 22134 --- [o-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-05T18:33:22.239-07:00  INFO 22134 --- [o-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnASortedPageOdCashCardsWithNoParametersAndUseDefaultValues" classname="example.cashcard.CashcardApplicationTests" time="0.089"/>
+  <testcase name="contextLoads" classname="example.cashcard.CashcardApplicationTests" time="0.001"/>
+  <testcase name="shouldReturnAllCashCardsWhenListIsRequested" classname="example.cashcard.CashcardApplicationTests" time="0.085"/>
+  <testcase name="shouldReturnSortedPageOfCashCards" classname="example.cashcard.CashcardApplicationTests" time="0.087"/>
+</testsuite>
